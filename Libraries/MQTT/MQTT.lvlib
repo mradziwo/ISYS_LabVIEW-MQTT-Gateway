@@ -109,4 +109,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="GenerateConfig.vi" Type="VI" URL="../GenerateConfig.vi"/>
 </Library>

@@ -83,6 +83,7 @@
 				<Item Name="mqtt.lvproj" Type="Document" URL="../Libraries/mqtt Folder/mqtt.lvproj"/>
 			</Item>
 		</Item>
+		<Item Name="MessageTypedef.ctl" Type="VI" URL="../Libraries/MQTT/MessageTypedef.ctl"/>
 		<Item Name="MQTT1.lvclass" Type="LVClass" URL="../OOP/MQTT1/MQTT1.lvclass"/>
 		<Item Name="MQTTclient.lvclass" Type="LVClass" URL="../OOP/MQTTclient.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
