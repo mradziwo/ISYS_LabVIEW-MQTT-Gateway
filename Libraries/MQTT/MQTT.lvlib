@@ -24,6 +24,8 @@
 				<Item Name="Subscrie Argument--cluster.ctl" Type="VI" URL="../Subscrie Argument--cluster.ctl"/>
 				<Item Name="unsubscribe Argument--cluster.ctl" Type="VI" URL="../unsubscribe Argument--cluster.ctl"/>
 				<Item Name="Publish Argument--cluster.ctl" Type="VI" URL="../Publish Argument--cluster.ctl"/>
+				<Item Name="PublishByAlias Argument--cluster.ctl" Type="VI" URL="../PublishByAlias Argument--cluster.ctl"/>
+				<Item Name="addTopicAlias Argument--cluster.ctl" Type="VI" URL="../addTopicAlias Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -43,6 +45,8 @@
 			<Item Name="Subscrie.vi" Type="VI" URL="../Subscrie.vi"/>
 			<Item Name="unsubscribe.vi" Type="VI" URL="../unsubscribe.vi"/>
 			<Item Name="Publish.vi" Type="VI" URL="../Publish.vi"/>
+			<Item Name="PublishByAlias.vi" Type="VI" URL="../PublishByAlias.vi"/>
+			<Item Name="addTopicAlias.vi" Type="VI" URL="../addTopicAlias.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
