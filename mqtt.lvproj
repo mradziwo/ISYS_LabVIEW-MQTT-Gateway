@@ -91,9 +91,13 @@
 				<Item Name="mqtt.lvproj" Type="Document" URL="../Libraries/mqtt Folder/mqtt.lvproj"/>
 			</Item>
 		</Item>
-		<Item Name="MessageTypedef.ctl" Type="VI" URL="../Libraries/MQTT/MessageTypedef.ctl"/>
-		<Item Name="MQTT1.lvclass" Type="LVClass" URL="../OOP/MQTT1/MQTT1.lvclass"/>
-		<Item Name="MQTTclient.lvclass" Type="LVClass" URL="../OOP/MQTTclient.lvclass"/>
+		<Item Name="MQTTOOP" Type="Folder">
+			<Item Name="MQTT1" Type="Folder">
+				<Item Name="MQTT1.lvclass" Type="LVClass" URL="../OOP/MQTT1/MQTT1.lvclass"/>
+			</Item>
+			<Item Name="MQTTclient.lvclass" Type="LVClass" URL="../OOP/MQTTclient.lvclass"/>
+		</Item>
+		<Item Name="DICT.lvclass" Type="LVClass" URL="../OOP/Dict/DICT.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
@@ -190,25 +194,25 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/MQTT1.lvclass</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/MQTTOOP/MQTT1/MQTT1.lvclass</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/MQTTclient.lvclass</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/MQTTOOP/MQTTclient.lvclass</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/MQTT Module/MQTT.lvlib/Test MQTT API.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/MQTT1.lvclass/connect.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/MQTTOOP/MQTT1/MQTT1.lvclass/connect.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/MQTT1.lvclass/worker.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/MQTTOOP/MQTT1/MQTT1.lvclass/worker.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
